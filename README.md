@@ -28,6 +28,9 @@ student-performance-analyzer/
 - **Functions** – clean code organization  
 - **Loop & Conditionals** – analysis logic
 
+## 🚀This is New Update of Old Project
+Old Project Link Is Here: https://github.com/Omborse08/Student-Marks-Manager--CLI-App-
+
 
 ##🛠️ How to Run
 Make sure you have **Python 3.10+** installed.
