@@ -41,7 +41,7 @@ while True:
             case "2":
                 a = "Students Reports"
                 print(a.center(50))
-                l()
+                print(l)
                 AVGE = 0
                 f = 0
                 p = 0
@@ -72,7 +72,7 @@ while True:
                     else:
                         pass
                 print("\n           Class Average: ")
-                l()
+                print(l)
                 c_avg = (AVGE/(len(Students)*100)) * 100
                 print(f"📌Class Average Marks : {c_avg}")
                 print(f"🎓 Unique Grades      : {Grade}")
@@ -82,7 +82,7 @@ while True:
             
             case "3":
                 print("\n              Shows Subjects Toppers")
-                l()
+                print(l)
                 for subject_index in range(3):
                     top_score = -1
                     topper = ""
@@ -96,7 +96,7 @@ while True:
             
             case "4":
                 print("\n              Shows Failed Students")
-                l()
+                print(l)
                 fail = 0
                 for m,n in Students.items():
                     failed = 0
@@ -108,12 +108,12 @@ while True:
                         print(f"Marks: {n}")
                         print(f"❌ Failed in {failed} subjects")
                         fail += 1
-                l()
+                print(l)
                 print(f"\nTotal Failed Student is {fail}")
                 input("> Press any key to continue! ")
 
             case "5":
-                l()
+                print(l)
                 print("Thank You For Using My Code! ")
                 break
 
